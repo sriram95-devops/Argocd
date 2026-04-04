@@ -53,7 +53,7 @@ spec:
     helm:
       valueFiles: [values.yaml, values-prod.yaml]
   destination:
-    server: https://aks-prod.eastus.azmk8s.io   # separate production cluster
+    server: https://kubernetes.default.svc   # separate production cluster
     namespace: prod
   syncPolicy:
     syncOptions: [CreateNamespace=true]
