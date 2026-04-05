@@ -3,7 +3,7 @@ name: CI — Build, Push & Update Image Tag
 on:
   push:
     branches:
-      - main
+      - master
 
 env:
   DOCKERHUB_USERNAME: ${{ secrets.DOCKERHUB_USERNAME }}
