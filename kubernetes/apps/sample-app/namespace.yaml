@@ -1,0 +1,5 @@
+# kubernetes/apps/sample-app/namespace.yaml
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: sample-app
