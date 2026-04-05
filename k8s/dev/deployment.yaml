@@ -17,7 +17,7 @@ spec:
         - name: dockerhub-pull-secret
       containers:
         - name: your-app
-          image: sriram1995/your-app-name:676730b8
+          image: sriram1995/your-app-name:6d7263d1
           ports:
             - containerPort: 3000
           resources:
