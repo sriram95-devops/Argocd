@@ -1,0 +1,12 @@
+{
+  "name": "argocd-app",
+  "version": "1.0.0",
+  "description": "Sample Node.js app for ArgoCD pipeline",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {}
+}
