@@ -12,6 +12,7 @@ env:
 jobs:
   build-push-update:
     runs-on: ubuntu-latest
+    environment: githubactions
 
     steps:
       # 1. Checkout source code
