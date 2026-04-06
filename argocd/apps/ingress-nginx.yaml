@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/your-org/devops-final-project.git
+    repoURL: https://github.com/sriram95-devops/Argocd.git
     targetRevision: main
     path: ingress-nginx
   destination:
